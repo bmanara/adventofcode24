@@ -33,17 +33,22 @@ def attempt(idx, curr, numerals, goal):
 
     sum = attempt(idx + 1, add(curr, numerals[idx]), numerals, goal)
     product = attempt(idx + 1, multiply(curr, numerals[idx]), numerals, goal)
+    concat = attempt(idx + 1, concatenate(curr, numerals[idx]), numerals, goal)
 
+    if (concat != -1):
+        return concat
+    
     return product if sum == -1 else sum 
 
-
-# Define recursion here. Might be better to write recursion down with substructures
 
 def add(x, y):
     return x + y
 
 def multiply(x, y):
     return x * y
+
+def concatenate(x, y):
+    return int(str(x) + str(y))
 
 if __name__ == '__main__':
     print(partOne())
