@@ -36,7 +36,7 @@ Below is a snapshot + comments of every day I have attempted. Note that I am NOT
   - [ ] 10-2: Not done yet. Should be easy but somehow struggling...
 - [x] Day 11
   - [x] 11-1: Simple Naive Solution. Runtime: 1.3s
-  - [ ] 11-2: Not done yet.
+  - [x] 11-2: Needed a hint. Idea is simple, use dictionary instead of list! Runtime: 0.09s (Memoization could work to, avoiding repeated computation...) 
 - [ ] Day 12
 - [ ] Day 13
 - [ ] Day 14
