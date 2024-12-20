@@ -34,7 +34,9 @@ Below is a snapshot + comments of every day I have attempted. Note that I am NOT
 - [x] Day 10
   - [x] 10-1: Took awhile to code it out. Easy in theory, harder to implement
   - [ ] 10-2: Not done yet. Should be easy but somehow struggling...
-- [ ] Day 11
+- [x] Day 11
+  - [x] 11-1: Simple Naive Solution. Runtime: 1.3s
+  - [ ] 11-2: Not done yet.
 - [ ] Day 12
 - [ ] Day 13
 - [ ] Day 14
